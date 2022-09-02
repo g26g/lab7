@@ -1,0 +1,69 @@
+/**index.wxss**/
+page {
+  background-color: rgb(234, 244, 233);
+  min-height: 100%;
+  height:100%;
+  display: block;
+}
+.container {
+  padding-top: 60px;
+}
+.header {/*单词接龙*/
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;/*居中*/
+  margin-top: 10px;
+  font-size: 30px;
+  color: rgb(162, 184, 148);
+}
+.start {/*开始游戏按钮*/
+  display: block;
+  width: 52%;
+  height: 60px;
+  line-height: 60px;
+  margin: 40% auto 24%;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(177, 204, 149);
+  border-radius: 30px;
+  text-align: center;
+  outline: none;
+}
+.rules {/*规则布局*/
+  position: relative;
+  width: 90%;
+  height:150px;
+  margin: 80px auto 0;
+  background-color: #fff;
+  border: 2px solid rgb(226, 233, 225);
+  border-radius: 10px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.08);
+}
+
+.rules .rules-title {/*游戏规则标题*/
+  position: absolute;
+  left: 12px;
+  top: -10px;
+  width: 80px;
+  height:20px;
+  border:1px solid;
+  border-radius: 3px;
+  background-color: rgb(234, 244, 233);
+  text-align: center;
+  font-size: 18px;
+  line-height: 20px;
+  color:rgb(167, 183, 157);
+  font-weight: normal;
+}
+
+.rules .rules-content {/*具体的游戏规则*/
+  position: absolute;
+  top: 56%;
+  left: 10%;
+  -webkit-transform: translateY(-50%);
+}
+
+.rules .rules-content view {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
